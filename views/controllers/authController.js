@@ -14,5 +14,5 @@ module.exports = {
     res.clearCookie('token');
     res.render('pages/login');
   }
-
+  
 }
