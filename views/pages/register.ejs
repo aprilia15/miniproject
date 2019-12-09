@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../partials/head', { css: 'auth.css' }) %>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+
+        <div id="title" class="title">Sign Up</div>
+        <div class="form">
+          <div class="input">
+            <input type="email" id="email" placeholder="Enter Email">
+          </div>
+          <div class="input">
+            <input type="password" id="password" placeholder="Enter Password"> 
+          </div>
+          <div class="input">
+            <input type="password" id="passwordConfirmation" placeholder="Enter Password Confirmation"> 
+          </div>
+
+          <div class="button">
+            <button id="button">Register</button>
+          </div>
+
+          <div class="link">
+            <a href="/login">Already have an account?</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script src="/js/register.js"></script>
+  </body>
+</html>

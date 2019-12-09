@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<div id="post-<%= post._id %>" class="post">
+  <div class="title">
+    <a href="/posts/<%= post._id %>"><%= post.title %></a>
+  </div>
+  <div class="body">
+    <p><%= post.body %></p>
+    <p class="date"><%= post.created_at %></p>
+  </div>
+  <% if (showButton) { %>
+    <div class="button">
+      <button id="button-<%= post._id %>" onclick="location.href = '/destroy/<%= post._id %>'">Delete</button>
+    </div>
+  <% } %>
+</div>

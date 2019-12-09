@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../partials/head', { css: 'index.css' }) %>
+  </head>
+  <body>
+    <%- include('../components/navbar.ejs', { email: user.email }) %>
+    <div class="posts">
+
+      <div id="title" class="title">Create Post</div>
+      <div class="form">
+        <div class="input">
+          <input type="text" id="post-title" placeholder="Insert your title">
+        </div>
+        <div class="input">
+          <input type="text" id="post-body" placeholder="Insert your body"> 
+        </div>
+
+        <div class="button">
+          <button id="button">Create</button>
+        </div>
+
+    </div>
+
+    <script src="/js/logout.js"></script>
+    <script src="/js/create.js"></script>
+  </body>
+</html>

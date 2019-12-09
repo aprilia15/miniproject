@@ -1,0 +1,66 @@
+body {
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+.posts {
+  padding:32px;
+  width:80%;
+  margin:auto;
+}
+
+.post {
+  margin-top:16px;
+  text-align:justify;
+}
+
+.post .title {
+  margin-bottom:8px;
+}
+
+.post .title a {
+  margin:0;
+  text-decoration:none;
+  font-size:1.2em;
+  font-family:'Bebas Neue', cursive;
+  color:rgba(0,0,0,0.8);
+}
+
+.post .bottom {
+  margin-bottom:8px;
+}
+
+.post .body p {
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+  font-size:0.9em;
+  color: rgba(0,0,0,0.7);
+}
+
+.post .body .date {
+  margin:16px 0;
+  color:rgba(0,0,0,0.5);
+  font-size:0.7em;
+  font-weight:bold;
+}
+
+.post .button {
+  width:100%;
+}
+
+.post .button button {
+  cursor:pointer;
+  border:none;
+  border-radius:4px;
+  background:black;
+  color:white;
+  font-size:0.75em;
+  font-family:'Bebas Neue', cursive;
+  padding:8px;
+}
+
+.post .button button:hover {
+  background:rgba(0,0,0,0.9);
+}
