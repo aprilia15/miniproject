@@ -22,5 +22,6 @@ mongoose.connect(process.env.DB_CONNECTION, {
     app.listen(port, () => console.log(`Listening on port 5000!`))
   })
   .catch(err => {
+    console.log(err)
     console.log('Failed to connect to database!')
   })
