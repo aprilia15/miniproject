@@ -3,7 +3,7 @@ const baseUrl = process.env.BASE_URL;
 
 module.exports = {
   index: function(req, res) {
-    fetch('http://127.0.0.1:8000/api/v1/posts', {
+    fetch(`${process.env.DB_CONNECTION}/api/v1/posts`, {
       method: 'GET',
       headers: {
         'Accept':'application/json'
@@ -18,7 +18,7 @@ module.exports = {
       })
   },
   show: function(req, res) {
-    fetch(`http://127.0.0.1:8000/api/v1/posts/${req.params._id}`, {
+    fetch(`${process.env.DB_CONNECTION}/api/v1/posts/${req.params._id}`, {
       method: 'GET',
       headers: {
         'Accept':'application/json'
@@ -34,7 +34,7 @@ module.exports = {
   },
 
   destroy: function(req, res) {
-    fetch(`http://127.0.0.1:8000/api/v1/posts/${req.params._id}`, {
+    fetch(`${process.env.DB_CONNECTION}/api/v1/posts/${req.params._id}`, {
       method: 'DELETE',
       headers: {
         'Accept':'application/json',
