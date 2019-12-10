@@ -24,7 +24,7 @@ body {
   text-decoration:none;
   font-size:1.2em;
   font-family:'Bebas Neue', cursive;
-  color:rgba(0,0,0,0.8);
+  color:palevioletred;
 }
 
 .post .bottom {
@@ -36,12 +36,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight:bold;
   font-size:0.9em;
-  color: rgba(0,0,0,0.7);
+  color: palevioletred;
 }
 
 .post .body .date {
   margin:16px 0;
-  color:rgba(0,0,0,0.5);
+  color: palevioletred;
   font-size:0.7em;
   font-weight:bold;
 }
@@ -54,7 +54,7 @@ body {
   cursor:pointer;
   border:none;
   border-radius:4px;
-  background:black;
+  background: palevioletred;
   color:white;
   font-size:0.75em;
   font-family:'Bebas Neue', cursive;
@@ -62,5 +62,5 @@ body {
 }
 
 .post .button button:hover {
-  background:rgba(0,0,0,0.9);
+  background: palevioletred;
 }
