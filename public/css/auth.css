@@ -34,10 +34,10 @@ body {
 
 .input input {
   font-family:'Bebas Neue', cursive;
-  border:1px solid rgba(0,0,0,0);
-  background:black;
-  color:white;
-  border-opacity:0.5;
+  border:1px solid rgb(128, 0, 111);
+  background:rgb(128, 0, 111);
+  color: whitesmoke;
+  border-spacing:0.5;
   border-radius:4px;
   height:32px;
   min-width:45%;
@@ -58,12 +58,12 @@ body {
   border:none;
   border-radius:4px;
   padding:8px 16px;
-  background:black;
+  background: rgb(128, 0, 111);
   color:white;
 }
 
 .button button:hover {
-  background:rgba(0,0,0,0.9);
+  background:rgb(128, 0, 111);
 }
 
 .link {
